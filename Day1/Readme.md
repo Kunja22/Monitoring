@@ -4,7 +4,8 @@
 Deffination  
    - Observability means understanding what is happening inside a system by looking at its data from outside.
    - It is the combination of Monitoring + Logging = Oberservability
-  # 1.Monitoring    
+  # 1.Monitoring   
+  
    - Monitoring is the process of continuously tracking system health using metrics like CPU, memory, and performance.
 
   # Types of Monitoring
@@ -29,9 +30,9 @@ Deffination
    # 2. logging
    - Logging means recording events or activities that happen inside a system.
     # Types of Logs
-       Error Logs → shows errors
-       Access Logs → user requests
-       Debug Logs → detailed information
+       1.Error Logs → shows errors
+       2.Access Logs → user requests
+       3.Debug Logs → detailed information
    
    # 3. Alerting 
    - Alerting means sending a notification when something goes wrong in the system.
