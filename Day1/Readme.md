@@ -38,13 +38,11 @@ Deffination
    # 4. Tracing
    - Tracing means tracking the path of a request as it moves through different services.
    # Tools Overview
-  📦 Monitoring Tools
-+----------------------+----------------------+
-| Open Source          | Closed Source        |
-+----------------------+----------------------+
-| Prometheus           | Datadog              |
-| Grafana              | Dynatrace            |
-| Nagios               | AppDynamics          |
-| Zabbix               | New Relic            |
-| Icinga               | SolarWinds           |
-+----------------------+----------------------+
+   📦 Monitoring Tools
+  Open Source Tools   Close Source Tools
+ - Prometheus         - Datadog
+ - Grafana            - Dynatrace
+ - Nagios             - AppDynamics
+ - Zabbix             - New Relic
+ - Icinga             - SolarWinds
+ 
