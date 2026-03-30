@@ -39,10 +39,59 @@ Deffination
    - Tracing means tracking the path of a request as it moves through different services.
    # Tools Overview
    📦 Monitoring Tools
-  Open Source Tools   Close Source Tools
- - Prometheus         - Datadog
- - Grafana            - Dynatrace
- - Nagios             - AppDynamics
- - Zabbix             - New Relic
- - Icinga             - SolarWinds
- 
+  🔹 Open Source Tools
+     - Prometheus
+     - Grafana
+     - Nagios
+     - Zabbix
+     - Icinga
+🔹 Closed Source Tools
+     - Datadog
+     - Dynatrace
+     - AppDynamics
+     - New Relic
+     - SolarWinds
+📦 Logging Tools
+🔹 Open Source Tools
+   - ELK Stack
+   - Fluentd
+   - Graylog
+🔹 Closed Source Tools
+   - Splunk
+   - Sumo Logic
+   - Datadog Logs
+   - Loggly
+   - Papertrail
+📦 Tracing Tools
+🔹 Open Source Tools
+   - Jaeger
+   - Zipkin
+   - OpenTelemetry
+    - Tempo
+🔹 Closed Source Tools
+  - Datadog APM
+  - Dynatrace
+  -  New Relic
+  - AppDynamics
+📦 Visualization Tools
+🔹 Open Source Tools
+   - Grafana
+   - Kibana
+   - Apache Superset
+   - Metabase
+🔹 Closed Source Tools
+    - Datadog Dashboard
+    - New Relic Dashboard
+    - Dynatrace Dashboard
+    - Power BI
+📦 Alerting Tools
+🔹 Open Source Tools
+   - Alertmanager
+   - Grafana Alerts
+   - Nagios Alerts
+   - Zabbix Alerts
+🔹 Closed Source Tools
+   - PagerDuty
+   - Opsgenie
+   - VictorOps
+   - Datadog Alerts
