@@ -7,7 +7,7 @@ Deffination
   # 1.Monitoring    
    - Monitoring is the process of continuously tracking system health using metrics like CPU, memory, and performance.
 
-  🔹 Types of Monitoring
+  # Types of Monitoring
   🔹 1. Infrastructure Monitoring
      CPU usage
      Memory usage
@@ -28,15 +28,16 @@ Deffination
 
    # 2. logging
    - Logging means recording events or activities that happen inside a system.
-    🔹 Types of Logs
+    # Types of Logs
        Error Logs → shows errors
        Access Logs → user requests
        Debug Logs → detailed information
    
-   🔹 Alerting 
-      Alerting means sending a notification when something goes wrong in the system.
-
-   🔹Tools Overview
+   # 3. Alerting 
+   - Alerting means sending a notification when something goes wrong in the system.
+   # 4. Tracing
+   - Tracing means tracking the path of a request as it moves through different services.
+   # Tools Overview
      
 
 
