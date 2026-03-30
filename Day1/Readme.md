@@ -38,7 +38,58 @@ Deffination
    # 4. Tracing
    - Tracing means tracking the path of a request as it moves through different services.
    # Tools Overview
-     
+ |   MONITORING TOOLS   |                                 |
++----------------------+----------------------------------+
+| Open Source Tools    | Closed Source Tools              |
++----------------------+----------------------------------+
+| Prometheus          | Datadog                          |
+| Grafana             | Dynatrace                        |
+| Nagios              | AppDynamics                      |
+| Zabbix              | New Relic                        |
+| Icinga              | SolarWinds                       |
++----------------------+----------------------------------+
++----------------------+----------------------------------+
+|    LOGGING TOOLS     |                                  |
++----------------------+----------------------------------+
+| Open Source Tools    | Closed Source Tools              |
++----------------------+----------------------------------+
+| ELK Stack            | Splunk                           |
+| (Elasticsearch,      | Sumo Logic                       |
+|  Logstash, Kibana)   | Datadog Logs                     |
+| Fluentd              | Loggly                           |
+| Graylog              | Papertrail                       |
++----------------------+----------------------------------+
++----------------------+----------------------------------+
+|    TRACING TOOLS     |                                  |
++----------------------+----------------------------------+
+| Open Source Tools    | Closed Source Tools              |
++----------------------+----------------------------------+
+| Jaeger               | Datadog APM                      |
+| Zipkin               | Dynatrace                        |
+| OpenTelemetry        | New Relic                        |
+| Tempo (Grafana)      | AppDynamics                      |
++----------------------+----------------------------------+
++----------------------+----------------------------------+
+|  VISUALIZATION TOOLS |                                  |
++----------------------+----------------------------------+
+| Open Source Tools    | Closed Source Tools              |
++----------------------+----------------------------------+
+| Grafana              | Datadog Dashboard                |
+| Kibana               | New Relic Dashboard              |
+| Apache Superset      | Dynatrace Dashboard              |
+| Metabase             | Power BI                         |
++----------------------+----------------------------------+
++----------------------+----------------------------------+
+|    ALERTING TOOLS    |                                  |
++----------------------+----------------------------------+
+| Open Source Tools    | Closed Source Tools              |
++----------------------+----------------------------------+
+| Prometheus Alertmanager | PagerDuty                     |
+| Grafana Alerts          | Opsgenie                      |
+| Nagios Alerts           | VictorOps (Splunk On-Call)    |
+| Zabbix Alerts           | Datadog Alerts                |
++----------------------+----------------------------------+
+# Logz.io is a cloud-based logging platform built on ELK stack that helps collect, analyze, and visualize logs.
 
 
      
