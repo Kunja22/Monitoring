@@ -4,6 +4,7 @@
 Deffination  
    - Observability means understanding what is happening inside a system by looking at its data from outside.
    - It is the combination of Monitoring + Logging = Oberservability
+     
   # 1.Monitoring   
   
    - Monitoring is the process of continuously tracking system health using metrics like CPU, memory, and performance.
