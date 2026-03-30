@@ -1,3 +1,43 @@
 # Day 1 Monitoring And Logging 
-1. oberservability 
+ # Oberservability 
    <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/65252cb7-ab5c-436f-b32e-a3e198e46bdd" />
+Deffination  
+   - Observability means understanding what is happening inside a system by looking at its data from outside.
+   - It is the combination of Monitoring + Logging = Oberservability
+  # 1.Monitoring    
+   - Monitoring is the process of continuously tracking system health using metrics like CPU, memory, and performance.
+
+  🔹 Types of Monitoring
+  🔹 1. Infrastructure Monitoring
+     CPU usage
+     Memory usage
+     Disk space
+     Example: EC2, VM health
+
+🔹 2. Application Monitoring
+     Response time
+     Errors
+     Requests
+     Example: Website slow or fast
+
+🔹 3. Network Monitoring
+      Latency
+      Packet loss
+      Connectivity
+      Example: Server not reachable
+
+   # 2. logging
+   - Logging means recording events or activities that happen inside a system.
+    🔹 Types of Logs
+       Error Logs → shows errors
+       Access Logs → user requests
+       Debug Logs → detailed information
+   
+   🔹 Alerting 
+      Alerting means sending a notification when something goes wrong in the system.
+
+   🔹Tools Overview
+     
+
+
+     
