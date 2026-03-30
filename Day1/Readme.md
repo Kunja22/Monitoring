@@ -121,34 +121,53 @@ Deffination
 - Datadog Alerts
 
 - Logz.io is a SaaS tool that collects logs, metrics, and traces to monitor and troubleshoot applications.
-  📦 Linux Commands for Monitoring
-🔹 System Monitoring
-top → Shows real-time CPU, memory usage
-htop → Better version of top (interactive)
-uptime → Shows system running time & load
-🔹 CPU Monitoring
-mpstat → CPU usage details
-lscpu → CPU information
-🔹 Memory Monitoring
-free -m → Memory usage (MB)
-vmstat → Memory + CPU stats
-🔹 Disk Monitoring
-df -h → Disk space usage
-du -sh → Folder size
-iostat → Disk I/O performance
-🔹 Network Monitoring
-netstat -tulnp → Open ports
-ss -tulnp → Modern netstat
-iftop → Network usage
-ping → Connectivity check
-📦 Linux Commands for Logging
-🔹 View Logs
-cat /var/log/syslog → Show full log
-less /var/log/syslog → Scroll logs
-tail /var/log/syslog → Last lines
-tail -f /var/log/syslog → Live logs
-🔹 Important Log Files
-/var/log/syslog → System logs
-/var/log/auth.log → Login logs
-/var/log/nginx/access.log → Web access
-/var/log/nginx/error.log → Web errors
+  # 🐧 Linux Monitoring & Logging Commands
+
+## 📦 Monitoring Commands
+
+### 🔹 System Monitoring
+- `top` → Real-time CPU & memory usage  
+- `htop` → Interactive system monitoring  
+- `uptime` → System running time & load  
+
+### 🔹 CPU Monitoring
+- `mpstat` → CPU usage statistics  
+- `lscpu` → CPU information  
+
+### 🔹 Memory Monitoring
+- `free -m` → Memory usage (in MB)  
+- `vmstat` → Memory and CPU stats  
+
+### 🔹 Disk Monitoring
+- `df -h` → Disk space usage  
+- `du -sh` → Directory size  
+- `iostat` → Disk I/O performance  
+
+### 🔹 Network Monitoring
+- `netstat -tulnp` → Open ports and services  
+- `ss -tulnp` → Modern alternative to netstat  
+- `iftop` → Network bandwidth usage  
+- `ping` → Check connectivity  
+
+---
+
+## 📦 Logging Commands
+
+### 🔹 View Logs
+- `cat /var/log/syslog` → View full logs  
+- `less /var/log/syslog` → Scroll logs  
+- `tail /var/log/syslog` → Last few lines  
+- `tail -f /var/log/syslog` → Live logs  
+
+### 🔹 Important Log Files
+- `/var/log/syslog` → System logs  
+- `/var/log/auth.log` → Authentication logs  
+- `/var/log/nginx/access.log` → Web access logs  
+- `/var/log/nginx/error.log` → Web error logs  
+
+### 🔹 Search Logs
+- `grep "error" /var/log/syslog` → Search for errors  
+- `journalctl` → View systemd logs  
+- `journalctl -u nginx` → Logs for specific service  
+
+---
