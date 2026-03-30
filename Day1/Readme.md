@@ -38,8 +38,8 @@ Deffination
    # 4. Tracing
    - Tracing means tracking the path of a request as it moves through different services.
    # Tools Overview
-📦 Monitoring Tools
-   +----------------------+----------------------+
+  📦 Monitoring Tools
++----------------------+----------------------+
 | Open Source          | Closed Source        |
 +----------------------+----------------------+
 | Prometheus           | Datadog              |
