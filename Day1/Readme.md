@@ -32,7 +32,9 @@ Deffination
    - Logging means recording events or activities that happen inside a system.
     # Types of Logs
        1.Error Logs → shows errors
+     
        2.Access Logs → user requests
+     
        3.Debug Logs → detailed information
    
    # 3. Alerting 
