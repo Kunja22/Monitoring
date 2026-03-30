@@ -119,3 +119,5 @@ Deffination
 - Opsgenie
 - VictorOps (Splunk On-Call)
 - Datadog Alerts
+
+- Logz.io is a SaaS tool that collects logs, metrics, and traces to monitor and troubleshoot applications.
