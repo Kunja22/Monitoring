@@ -46,6 +46,11 @@ It works by scraping metrics from configured targets (like servers, containers, 
 # Application 
 <img width="1657" height="820" alt="image" src="https://github.com/user-attachments/assets/dbca027b-c176-47b8-a1e8-1d41b8937d16" />
 
+# Memory Usage
+process_resident_memory_bytes
+<img width="1899" height="929" alt="image" src="https://github.com/user-attachments/assets/57241e24-6667-40b9-a2d7-73557666ab64" />
+
+
 
 
 
