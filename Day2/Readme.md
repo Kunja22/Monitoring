@@ -50,6 +50,10 @@ It works by scraping metrics from configured targets (like servers, containers, 
 process_resident_memory_bytes
 <img width="1899" height="929" alt="image" src="https://github.com/user-attachments/assets/57241e24-6667-40b9-a2d7-73557666ab64" />
 
+#Grafana Dashboard
+<img width="1908" height="883" alt="image" src="https://github.com/user-attachments/assets/072677d6-f84d-496a-9672-e0ed725a743a" />
+
+
 
 
 
