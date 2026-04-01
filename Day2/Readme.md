@@ -37,3 +37,7 @@ It works by scraping metrics from configured targets (like servers, containers, 
 # Grafana.yml
 <img width="1123" height="973" alt="image" src="https://github.com/user-attachments/assets/b43ed009-69b0-41a1-ba19-37db229c1d73" />
 
+# Prometheus Dashboard
+<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/bd6ea37a-f82e-4708-90c4-6b34b6699591" />
+
+
