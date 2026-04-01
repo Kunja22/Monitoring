@@ -43,5 +43,9 @@ It works by scraping metrics from configured targets (like servers, containers, 
 # Gafana Dashboard
 <img width="1908" height="1005" alt="image" src="https://github.com/user-attachments/assets/8edc4854-a730-4747-a62d-c027a1d5a11c" />
 
+# Application 
+<img width="1657" height="820" alt="image" src="https://github.com/user-attachments/assets/dbca027b-c176-47b8-a1e8-1d41b8937d16" />
+
+
 
 
