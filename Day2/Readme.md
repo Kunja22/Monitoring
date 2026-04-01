@@ -40,4 +40,8 @@ It works by scraping metrics from configured targets (like servers, containers, 
 # Prometheus Dashboard
 <img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/bd6ea37a-f82e-4708-90c4-6b34b6699591" />
 
+# Gafana Dashboard
+<img width="1908" height="1005" alt="image" src="https://github.com/user-attachments/assets/8edc4854-a730-4747-a62d-c027a1d5a11c" />
+
+
 
