@@ -31,4 +31,6 @@ It works by scraping metrics from configured targets (like servers, containers, 
 # Install prometheus and Grafana
 <img width="1908" height="965" alt="image" src="https://github.com/user-attachments/assets/04404b40-11c8-4d74-a40a-4eb5b5eb2e14" />
 # Prometheus yml file 
+<img width="744" height="391" alt="image" src="https://github.com/user-attachments/assets/ac5fe172-3a8d-4613-a1ea-fcabf53e01ab" />
+
 
