@@ -174,6 +174,6 @@ Deffination
 ### 🔹 Search Logs
 - `grep "error" /var/log/syslog` → Search for errors  
 - `journalctl` → View systemd logs  
-- `journalctl -u nginx` → Logs for specific service  
+- `journalctl -u nginx` → Logs for specific service.  
 
 ---
