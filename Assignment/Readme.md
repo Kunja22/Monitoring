@@ -53,5 +53,9 @@ project/
      docker-compose down
      docker-compose up --build
 
+🌐 Step 4: Verify in Prometheus UI     
+ <img width="1916" height="1003" alt="image" src="https://github.com/user-attachments/assets/6209a1d5-5a6d-4236-a4c2-289be35388b0" />
+
+
 
 
