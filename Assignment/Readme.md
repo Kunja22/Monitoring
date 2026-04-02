@@ -22,3 +22,8 @@ project/
 🧩 Step 1: Create Sample Application (app.js)
  
  <img width="1138" height="970" alt="image" src="https://github.com/user-attachments/assets/f4943c73-f5d6-4095-a544-7de061910af9" />
+
+ 🐳 Step 2: Create Dockerfile
+ 
+ <img width="855" height="717" alt="image" src="https://github.com/user-attachments/assets/b7fa5d4b-a3ac-470c-9239-a8df0e6859b5" />
+
