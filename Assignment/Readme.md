@@ -43,7 +43,10 @@ project/
 
  <img width="744" height="391" alt="image" src="https://github.com/user-attachments/assets/43c9f500-adfd-4d62-829a-6ccc957d0891" />
 
- ]
+ 
 🐳 Step 2: Update docker-compose.yml
+
+<img width="1177" height="986" alt="image" src="https://github.com/user-attachments/assets/12ccb879-35d0-40fd-b017-04d6cecbd7f1" />
+
 
 
