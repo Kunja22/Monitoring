@@ -35,4 +35,6 @@ project/
       docker run -d -p 4000:4000 node-app
 
 🌐 Step 5: Validate Application    
+    <img width="1910" height="963" alt="image" src="https://github.com/user-attachments/assets/0450a768-ffcd-48b2-be63-10c7b23761c8" />
+
 
