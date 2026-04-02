@@ -41,3 +41,6 @@ project/
 
  🧩 Step 1: Update prometheus.yml
 
+ <img width="744" height="391" alt="image" src="https://github.com/user-attachments/assets/43c9f500-adfd-4d62-829a-6ccc957d0891" />
+
+
