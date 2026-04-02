@@ -1,6 +1,11 @@
 # Task 1: Project Setup
-project-name/Assignment
+
+project/
 │
-├── app/                # Application code (Node.js, Python, etc.)
-├── docker/             # Dockerfile, docker-compose.yml
-└── README.md
+├── app.js
+├── Dockerfile
+├── prometheus.yml
+├── grafana 
+├── docker-compose.yml
+
+# Task 2: Application Deployment
