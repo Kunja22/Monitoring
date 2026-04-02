@@ -48,5 +48,10 @@ project/
 
 <img width="1177" height="986" alt="image" src="https://github.com/user-attachments/assets/12ccb879-35d0-40fd-b017-04d6cecbd7f1" />
 
+▶️ Step 3: Restart Services
+
+     docker-compose down
+     docker-compose up --build
+
 
 
