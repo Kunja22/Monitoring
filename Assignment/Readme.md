@@ -27,3 +27,9 @@ project/
  
  <img width="855" height="717" alt="image" src="https://github.com/user-attachments/assets/b7fa5d4b-a3ac-470c-9239-a8df0e6859b5" />
 
+ 📦 Step 3: Build Docker Image
+    
+     docker build -t node-app .
+▶️ Step 4: Run Container
+       docker run -d -p 4000:4000 node-app
+
