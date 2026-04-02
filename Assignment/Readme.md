@@ -39,3 +39,5 @@ project/
 
 🔹 Task 3: Prometheus Configuration
 
+ 🧩 Step 1: Update prometheus.yml
+
