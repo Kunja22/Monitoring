@@ -31,5 +31,6 @@ project/
     
      docker build -t node-app .
 ▶️ Step 4: Run Container
-       docker run -d -p 4000:4000 node-app
+       
+      docker run -d -p 4000:4000 node-app
 
