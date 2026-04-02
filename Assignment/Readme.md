@@ -34,3 +34,5 @@ project/
        
       docker run -d -p 4000:4000 node-app
 
+🌐 Step 5: Validate Application    
+
