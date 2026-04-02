@@ -59,6 +59,8 @@ project/
  🔹 Task 5: Grafana Setup
  <img width="1901" height="930" alt="image" src="https://github.com/user-attachments/assets/bc6d2176-c243-41ae-ace0-fa03a936cf7f" />
 
+ 🔹 Task 6: Infra Monitoring Dashboard
+
 
  
 
