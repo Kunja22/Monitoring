@@ -18,3 +18,5 @@ project/
 ● Ensure the application exposes metrics at a /metrics endpoint
 
 ● Validate that metrics are accessible via browser
+
+🧩 Step 1: Create Sample Application (app.js)
