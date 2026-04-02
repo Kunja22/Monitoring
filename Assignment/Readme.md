@@ -66,7 +66,7 @@ project/
  🔹 Task 6: Infra Monitoring Dashboard
    <img width="1900" height="1003" alt="image" src="https://github.com/user-attachments/assets/3621d11f-8e29-4f7a-b99d-94d6890b59e2" />
 
-   🔹 Task 7: Application Monitoring Dashboard
+   🔹 Task 7: Application Monitoring Dashboard.
     <img width="1906" height="965" alt="image" src="https://github.com/user-attachments/assets/ed5f9976-8c31-49c6-81c1-340a720bc607" />
 
 
