@@ -1,11 +1,13 @@
-# Task 1: Project Setup
+# 📦 Project Setup: Monitoring Stack with Docker Compose
 
+## 📁 Project Structure
+
+```
 project/
 │
 ├── app.js
 ├── Dockerfile
 ├── prometheus.yml
-├── grafana 
+├── grafana/
 ├── docker-compose.yml
-
-# Task 2: Application Deployment
+```
