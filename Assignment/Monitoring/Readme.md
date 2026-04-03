@@ -116,6 +116,9 @@ Use your EC2 Public IP:
    
    <img width="1800" height="942" alt="image" src="https://github.com/user-attachments/assets/f4556e1c-ec6f-42b3-8f62-57c5abacafaf" />
 
+ 🔹 Prometheus  Configuration
+ <img width="1904" height="972" alt="image" src="https://github.com/user-attachments/assets/3158ff53-a895-4f86-a7b8-f1649fd1d2c0" />
+
 
 
 
