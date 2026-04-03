@@ -112,7 +112,7 @@ Use your EC2 Public IP:
 
 ---
 
-
+🔹 Task 5: Grafana Configuration
 
 
 
