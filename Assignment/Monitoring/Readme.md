@@ -120,7 +120,9 @@ Use your EC2 Public IP:
  <img width="1904" height="972" alt="image" src="https://github.com/user-attachments/assets/3158ff53-a895-4f86-a7b8-f1649fd1d2c0" />
 
 📊 Dashboard 1: Infrastructure Monitoring
- 
+
+   <img width="1890" height="967" alt="image" src="https://github.com/user-attachments/assets/deaf4bd9-16a3-473f-ac4c-2aadb08571c7" />
+
 
 
 
