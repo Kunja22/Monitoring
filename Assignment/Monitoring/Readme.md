@@ -39,6 +39,6 @@ monitoring-project/
 
 ✅ docker-compose.yml     
 
-    https://github.com/Kunja22/Monitoring/blob/ea44a2302b87ee0e58275ba3d269122e0683f129/Assignment/Monitoring/docker-compose.yml
+    Assignment/Monitoring/docker-compose.yml
    
  
