@@ -135,6 +135,28 @@ Use your EC2 Public IP:
    <img width="1892" height="968" alt="image" src="https://github.com/user-attachments/assets/97cc0dec-2656-45e1-96c2-d151f9ae3519" />
 
 
+    ## 🔹 Task 8: Observability Analysis
+
+### 1️⃣ Difference between Infrastructure and Application Metrics
+
+Infrastructure metrics provide information about the system resources such as CPU usage, memory consumption, disk usage, and network activity. These metrics help in understanding the health and performance of the underlying servers or containers.
+Application metrics, on the other hand, focus on the behavior of the application itself, such as request count, response time, error rates, and throughput. These metrics help in analyzing how well the application is performing from a user and service perspective.
+
+---
+
+### 2️⃣ Why Counters Require Rate/Increase Functions
+
+Counters in Prometheus always increase over time and never decrease, as they track cumulative values like total requests. Because of this, raw counter values are not useful for real-time analysis.
+Functions like `rate()` and `increase()` are used to calculate the change in the counter over a period of time, which helps in understanding metrics like requests per second or traffic trends.
+
+---
+
+### 3️⃣ How Monitoring Helps in Troubleshooting
+
+Monitoring provides real-time visibility into system and application performance, making it easier to detect issues quickly. By analyzing metrics and dashboards, engineers can identify bottlenecks, failures, or unusual patterns.
+It also helps in reducing downtime by enabling faster root cause analysis and proactive alerting before issues become critical.
+
+
 
 
 
