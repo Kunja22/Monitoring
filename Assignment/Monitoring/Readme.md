@@ -36,4 +36,6 @@ monitoring-project/
 ✅ prometheus.yml
 
      Assignment/Monitoring/prometheus.yml
+
+✅ docker-compose.yml     
  
