@@ -113,6 +113,9 @@ Use your EC2 Public IP:
 ---
 
 🔹 Task 5: Grafana Configuration
+   
+   <img width="1800" height="942" alt="image" src="https://github.com/user-attachments/assets/f4556e1c-ec6f-42b3-8f62-57c5abacafaf" />
+
 
 
 
