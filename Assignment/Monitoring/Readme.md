@@ -125,6 +125,11 @@ Use your EC2 Public IP:
 
    Task 7 
    <img width="1903" height="956" alt="image" src="https://github.com/user-attachments/assets/93dcacba-5c5b-4add-8f6b-29ee68c3d26e" />
+  
+   Memory  usage
+   
+   <img width="1900" height="970" alt="image" src="https://github.com/user-attachments/assets/9657e0be-16d5-4e0e-937a-a944c7e19ce7" />
+
 
 
 
