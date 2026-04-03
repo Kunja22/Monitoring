@@ -40,5 +40,7 @@ monitoring-project/
 ✅ docker-compose.yml     
 
     Assignment/Monitoring/docker-compose.yml
+ 
+ Task 2: Application Deployment  
    
  
