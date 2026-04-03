@@ -33,4 +33,7 @@ monitoring-project/
 ```
 
 ---
+✅ prometheus.yml
+
+   https://github.com/Kunja22/Monitoring/commit/ecb96d52a2b321f7ad38cf39ab561aad743f2018
 
