@@ -35,5 +35,5 @@ monitoring-project/
 ---
 ✅ prometheus.yml
 
-   https://github.com/Kunja22/Monitoring/blob/71c00e2e9771442936177c491fbf1bb6fe4f6cd9/Assignment/Monitoring/prometheus.yml
-
+  Assignment/Monitoring/prometheus.yml
+ 
