@@ -54,7 +54,65 @@ monitoring-project/
    <img width="1081" height="960" alt="image" src="https://github.com/user-attachments/assets/b3f2e456-49b6-43c0-b1fe-16dc33efc37b" />
 
    🔹 Task 4: Monitoring Stack Execution
-   
+
+     ## 🔹 Task 4: Monitoring Stack Execution
+
+### 📌 Objective
+
+Deploy all monitoring components using Docker Compose and ensure all services are accessible via browser.
+
+---
+
+### ⚙️ Services Included
+
+* Application (Python App)
+* Prometheus (Metrics Collection)
+* Node Exporter (System Metrics)
+* Grafana (Visualization)
+
+---
+
+### 🚀 Deployment Steps
+
+#### 1️⃣ Start All Services
+
+```bash
+docker-compose down
+docker-compose up -d --build
+```
+
+---
+
+#### 2️⃣ Verify Running Containers
+
+```bash
+docker ps
+```
+
+Ensure the following containers are running:
+
+* app
+* prometheus
+* node-exporter
+* grafana
+
+---
+
+### 🌐 Access Services via Browser
+
+Use your EC2 Public IP:
+
+| Service       | URL                          |
+| ------------- | ---------------------------- |
+| Application   | http://<EC2-IP>:5000         |
+| Metrics       | http://<EC2-IP>:5000/metrics |
+| Prometheus    | http://<EC2-IP>:9090         |
+| Node Exporter | http://<EC2-IP>:9100         |
+| Grafana       | http://<EC2-IP>:3000         |
+
+---
+
+
 
 
 
