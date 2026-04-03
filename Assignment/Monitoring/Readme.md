@@ -123,6 +123,10 @@ Use your EC2 Public IP:
 
    <img width="1890" height="967" alt="image" src="https://github.com/user-attachments/assets/deaf4bd9-16a3-473f-ac4c-2aadb08571c7" />
 
+   Task 7 
+   <img width="1903" height="956" alt="image" src="https://github.com/user-attachments/assets/93dcacba-5c5b-4add-8f6b-29ee68c3d26e" />
+
+
 
 
 
