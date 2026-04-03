@@ -43,4 +43,6 @@ monitoring-project/
  
  Task 2: Application Deployment  
    
+   <img width="1906" height="963" alt="image" src="https://github.com/user-attachments/assets/8c374bcd-1499-4538-8311-1d4ccc422d51" />
+
  
