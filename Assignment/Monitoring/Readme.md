@@ -130,6 +130,11 @@ Use your EC2 Public IP:
    
    <img width="1900" height="970" alt="image" src="https://github.com/user-attachments/assets/9657e0be-16d5-4e0e-937a-a944c7e19ce7" />
 
+   CPU usage
+
+   <img width="1892" height="968" alt="image" src="https://github.com/user-attachments/assets/97cc0dec-2656-45e1-96c2-d151f9ae3519" />
+
+
 
 
 
