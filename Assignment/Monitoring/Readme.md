@@ -49,5 +49,8 @@ monitoring-project/
 
 <img width="1430" height="986" alt="image" src="https://github.com/user-attachments/assets/7153b806-1d38-4282-961a-2aebb9ee7f96" />
 
+🔹 Task 3: Prometheus Integration
+
+
 
  
