@@ -100,6 +100,7 @@ Check containers:
 ```bash
 docker ps
 ```
+<img width="1915" height="968" alt="image" src="https://github.com/user-attachments/assets/7d5300fa-063b-42e9-a4bc-689b3690bad9" />
 
 ---
 
