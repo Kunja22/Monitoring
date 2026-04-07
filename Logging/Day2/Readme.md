@@ -111,6 +111,8 @@ docker ps
 
 <img width="1226" height="802" alt="image" src="https://github.com/user-attachments/assets/cece8196-abe7-418d-9158-3f3cb148d603" />
 
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/bbba30f9-1f7d-4d7c-a702-6d7b9806f49d" />
+
 ---
 
 ## 🧪 7. Test Logs
