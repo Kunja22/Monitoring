@@ -80,6 +80,3 @@ Monitoring and logging are fundamental practices in modern application and infra
 
 ---
 
-### Example
-
-**Monitoring (Metrics):**
