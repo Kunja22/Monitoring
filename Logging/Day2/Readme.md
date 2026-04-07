@@ -75,7 +75,7 @@ networks:
 input {
   tcp {
     port => 5000
-    codec => json
+    codec => plain
   }
 }
 
