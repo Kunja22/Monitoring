@@ -182,13 +182,5 @@ Application → Logstash → Elasticsearch → Kibana
 
 This is a complete production-like ELK setup using Docker Compose.
 
-You can now:
 
-* Monitor logs
-* Debug applications
-* Create dashboards in Kibana
-
----
-
-💯 This setup is interview-ready + practical DevOps implementation.
 
