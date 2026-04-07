@@ -109,6 +109,8 @@ docker ps
 * Elasticsearch → [http://localhost:9200](http://localhost:9200)
 * Kibana → [http://localhost:5601](http://localhost:5601)
 
+<img width="1226" height="802" alt="image" src="https://github.com/user-attachments/assets/cece8196-abe7-418d-9158-3f3cb148d603" />
+
 ---
 
 ## 🧪 7. Test Logs
