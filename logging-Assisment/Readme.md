@@ -108,6 +108,8 @@ Created visualizations:
 * 🔴 Error Count (metric)
 * 🥧 Log Distribution (pie chart)
 
+  <img width="1901" height="950" alt="image" src="https://github.com/user-attachments/assets/7601cc03-e096-44a4-8cc5-68267c30c738" />
+
 ---
 
 ## ⚙️ Setup Instructions
