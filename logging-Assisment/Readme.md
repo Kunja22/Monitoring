@@ -65,6 +65,8 @@ Application → Filebeat → Logstash → Elasticsearch → Kibana
 * Logstash forwards logs to Elasticsearch
 * Logs are visible in Kibana
 
+<img width="1899" height="1005" alt="image" src="https://github.com/user-attachments/assets/e1b96c7a-82fc-448e-a186-43ecadca1036" />
+
 ---
 
 ### 4. Log Processing (Logstash)
