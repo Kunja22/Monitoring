@@ -11,6 +11,9 @@ This project demonstrates a complete **centralized logging system** using the EL
 
   <img width="1226" height="802" alt="image" src="https://github.com/user-attachments/assets/e2c8657f-1abf-445a-b8b4-315696a2b77f" />
 
+  <img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/a5977bf9-f383-4110-8f0f-282537f828a3" />
+
+
 
 A sample application continuously generates logs, which are collected, processed, and visualized.
 
