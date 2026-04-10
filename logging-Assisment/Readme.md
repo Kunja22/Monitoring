@@ -9,6 +9,9 @@ This project demonstrates a complete **centralized logging system** using the EL
 * Filebeat → Log shipper
 * Kibana → Visualization & dashboards
 
+  <img width="1226" height="802" alt="image" src="https://github.com/user-attachments/assets/e2c8657f-1abf-445a-b8b4-315696a2b77f" />
+
+
 A sample application continuously generates logs, which are collected, processed, and visualized.
 
 ---
