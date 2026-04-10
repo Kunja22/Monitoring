@@ -74,6 +74,9 @@ Application → Filebeat → Logstash → Elasticsearch → Kibana
 * Logs enriched using filters
 * Added custom fields:
 
+  <img width="1893" height="858" alt="image" src="https://github.com/user-attachments/assets/55cd5f4f-6f7f-401e-87db-b7ec2a66b857" />
+
+
   * `service: log-generator`
   * `severity: INFO`
 
