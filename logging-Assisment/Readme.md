@@ -239,28 +239,7 @@ feat: add ELK-based centralized logging setup
 
 ---
 
-#### 📸 Screenshots
 
-* Discover page
-* Dashboard visualizations
 
----
-
-## 🎉 Conclusion
-
-This project demonstrates a complete **centralized logging pipeline**:
-
-* Log collection (Filebeat)
-* Log processing (Logstash)
-* Log storage (Elasticsearch)
-* Log visualization (Kibana)
-
----
-
-## 💡 Future Improvements
-
-* Add alerting (email/slack notifications)
-* Implement grok parsing for structured logs
-* Multi-service logging support
 
 ---
