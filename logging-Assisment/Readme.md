@@ -50,6 +50,8 @@ Application → Filebeat → Logstash → Elasticsearch → Kibana
 * A simple container generates logs continuously
 * Logs stored in:
 
+<img width="1878" height="974" alt="image" src="https://github.com/user-attachments/assets/5b624edf-9df6-4518-a935-31bd1ed31eb3" />
+
 ```
 /var/log/app.log
 ```
