@@ -23,11 +23,14 @@ This project demonstrates how to:
 
 <img width="1900" height="899" alt="image" src="https://github.com/user-attachments/assets/d863d6db-71b3-458e-89fa-684a2fa3739f" />
 
-3. Click **Users → Create User**
-4. Enter username (e.g., `s3-user`)
-5. Select:
+2. Click **Users → Create User**
+
+<img width="1919" height="828" alt="image" src="https://github.com/user-attachments/assets/a01b7484-e3b2-4f02-9eb0-81abc75053c3" />
+
+5. Enter username (e.g., `s3-user`)
+6. Select:
    - ✅ **Programmatic access**
-6. Click **Next**
+7. Click **Next**
 
 ---
 
