@@ -27,6 +27,9 @@ This project demonstrates how to:
 
 <img width="1919" height="828" alt="image" src="https://github.com/user-attachments/assets/a01b7484-e3b2-4f02-9eb0-81abc75053c3" />
 
+<img width="1887" height="810" alt="image" src="https://github.com/user-attachments/assets/e0b759db-074e-4572-a1be-eefbc45de776" />
+
+
 5. Enter username (e.g., `s3-user`)
 6. Select:
    - ✅ **Programmatic access**
