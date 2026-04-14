@@ -27,18 +27,17 @@ This project demonstrates how to:
 
 <img width="1919" height="828" alt="image" src="https://github.com/user-attachments/assets/a01b7484-e3b2-4f02-9eb0-81abc75053c3" />
 
+3. Create Bucket
+   
 <img width="1887" height="810" alt="image" src="https://github.com/user-attachments/assets/e0b759db-074e-4572-a1be-eefbc45de776" />
 
+4.Create bucket on CLI
 
-5. Enter username (e.g., `s3-user`)
-6. Select:
-   - ✅ **Programmatic access**
-7. Click **Next**
+<img width="1902" height="968" alt="image" src="https://github.com/user-attachments/assets/9320ba4e-d74f-4067-b459-fe7d178b6e08" />
+
 
 ---
 
-## 🔐 Step 2: Assign Minimum Permissions
 
-### ✅ Custom Policy (Least Privilege Recommended)
 
-Create a policy:
+
