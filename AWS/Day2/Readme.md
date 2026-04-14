@@ -20,11 +20,14 @@ This project demonstrates how to:
 
 ### Using AWS Console:
 1. Go to **IAM Dashboard**
-2. Click **Users → Create User**
-3. Enter username (e.g., `s3-user`)
-4. Select:
+
+<img width="1900" height="899" alt="image" src="https://github.com/user-attachments/assets/d863d6db-71b3-458e-89fa-684a2fa3739f" />
+
+3. Click **Users → Create User**
+4. Enter username (e.g., `s3-user`)
+5. Select:
    - ✅ **Programmatic access**
-5. Click **Next**
+6. Click **Next**
 
 ---
 
