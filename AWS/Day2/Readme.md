@@ -27,11 +27,16 @@ This project demonstrates how to:
 
 <img width="1919" height="828" alt="image" src="https://github.com/user-attachments/assets/a01b7484-e3b2-4f02-9eb0-81abc75053c3" />
 
-3. Create Bucket
+3. Permission
+
+<img width="1814" height="793" alt="image" src="https://github.com/user-attachments/assets/54164d01-1da3-4193-98e5-8d392d9321c4" />
+
+
+4. Create Bucket
    
 <img width="1887" height="810" alt="image" src="https://github.com/user-attachments/assets/e0b759db-074e-4572-a1be-eefbc45de776" />
 
-4.Create bucket on CLI
+5.Create bucket on CLI
 
 <img width="1902" height="968" alt="image" src="https://github.com/user-attachments/assets/9320ba4e-d74f-4067-b459-fe7d178b6e08" />
 
