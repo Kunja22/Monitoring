@@ -69,6 +69,8 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 - Set root volume size to **20 GB**
 - Volume type: General Purpose SSD (gp2/gp3)
 
+<img width="1909" height="856" alt="image" src="https://github.com/user-attachments/assets/9c312956-1e5f-45e8-ab42-e7f3c5766dd3" />
+
 ---
 
 ### 7. Launch Instance
