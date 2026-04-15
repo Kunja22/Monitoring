@@ -64,16 +64,18 @@ Create an IAM Role with minimum required permissions and use it to delete an exi
 Go to:
 **AWS Console → IAM → Roles → Create Role**
 
+<img width="1902" height="968" alt="image" src="https://github.com/user-attachments/assets/5a2edf3f-6b97-4cf7-a5f6-aa716162ff3c" />
+
+
 Select:
 - Trusted entity type: AWS service (or as per requirement)
 
+<img width="1915" height="971" alt="image" src="https://github.com/user-attachments/assets/7aa88ede-8eaf-4a7a-992a-d5cbf4145d7c" />
+
+<img width="1916" height="911" alt="image" src="https://github.com/user-attachments/assets/0bd91696-c4b4-4837-afd0-a729ae5c69ab" />
+
+
 ---
-
-## 2. Attach Permission Policy (Least Privilege)
-
-Create a custom policy and attach it to the role.
-
-### 📄 IAM Policy (S3 Delete Access Only)
 
 
 
