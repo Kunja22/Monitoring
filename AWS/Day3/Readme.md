@@ -121,13 +121,30 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
 
 
 
+---
 
+# 🚀 EC2 & User Data (Nginx Setup)
+
+## 📌 Objective
+To create an EC2 instance and use User Data to automatically install and start the Nginx web server, then access it via the public IP.
+
+---
+
+## 🛠️ Task 3
+
+### 1. Create EC2 Instance
 
 
 ---
 
-### 2. Connect to EC2 via SSH
+### 2. Add User Data Script
+
+While launching the instance, scroll to **Advanced Details → User Data** and paste:
 
 ```bash
-chmod 400 my-keypair.pem
-ssh -i my-keypair.pem ubuntu@<Public-IP>
+#!/bin/bash
+sudo apt update -y
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+
