@@ -63,14 +63,6 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
 
 ### 1. Create EC2 Instance
 - Go to AWS Management Console
-- Navigate to EC2 Dashboard
-- Click on **Launch Instance**
-- Configure:
-  - OS: Ubuntu (Latest LTS)
-  - VPC: Default VPC
-  - Enable **Auto-assign Public IP**
-  - Instance Type: t2.micro
-  - Key Pair: Create new `.pem` key pair
   - Security Group: Allow SSH (Port 22)
     <img width="1881" height="985" alt="image" src="https://github.com/user-attachments/assets/f4cf8195-2e61-4ae3-9c9d-84e0636bcce1" />
     
@@ -117,6 +109,9 @@ To create an EC2 instance and use User Data to automatically install and start t
     -  Create 2 docker containers, apache and nginx using user-data.
       
       <img width="1916" height="823" alt="image" src="https://github.com/user-attachments/assets/eac61517-35d4-4a39-83b6-28d91529c40a" />
+
+      <img width="1826" height="785" alt="image" src="https://github.com/user-attachments/assets/a9e67bb5-ad20-40dd-b189-cadd28c536ce" />
+
 
       
  -  Access content of both containers using IP:8080 (for apache), IP:80 (for
