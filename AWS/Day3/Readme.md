@@ -81,17 +81,30 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 
 ---
 
-## ✅ Outcome
-- EC2 instance created successfully
-- Ubuntu OS installed
-- Public IP enabled for remote access
-- SSH key pair generated
-- Security group configured
-- Root volume set to 20GB
+# 🚀 EC2, S3 & Instance Profile
+
+## 📌 Objective
+To create an EC2 instance, connect via SSH, and upload files to an S3 bucket using AWS CLI, then verify the upload.
 
 ---
 
-## 🔐 Connect to EC2 Instance
+## 🛠️ Steps
+
+### 1. Create EC2 Instance
+- Go to AWS Management Console
+- Navigate to EC2 Dashboard
+- Click on **Launch Instance**
+- Configure:
+  - OS: Ubuntu (Latest LTS)
+  - VPC: Default VPC
+  - Enable **Auto-assign Public IP**
+  - Instance Type: t2.micro
+  - Key Pair: Create new `.pem` key pair
+  - Security Group: Allow SSH (Port 22)
+
+---
+
+### 2. Connect to EC2 via SSH
 
 ```bash
 chmod 400 my-keypair.pem
