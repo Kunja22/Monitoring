@@ -3,22 +3,6 @@
 ## 📌 Objective
 To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public IP enabled, SSH key pair, default security group, and 20GB root volume.
 
----
-
-## 🛠️ Configuration Details
-
-| Parameter            | Value                          |
-|---------------------|--------------------------------|
-| OS                  | Ubuntu (Latest LTS)           |
-| VPC                 | Default VPC                   |
-| Public IP           | Enabled                       |
-| Key Pair            | New SSH Key Pair (.pem)       |
-| Security Group      | Default (Auto-created)        |
-| Storage (Root)      | 20 GB                         |
-| Instance Type       | t2.micro (Free Tier)          |
-
----
-
 ## 📋 Steps to Create EC2 Instance
 
 ### 1. Launch Instance
