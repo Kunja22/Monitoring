@@ -77,6 +77,8 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 - Review all configurations
 - Click **Launch Instance**
 
+<img width="1904" height="839" alt="image" src="https://github.com/user-attachments/assets/d77f5783-6935-43ee-9a86-f2b55cafc2b5" />
+
 ---
 
 ## ✅ Outcome
