@@ -27,22 +27,9 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 - Click on **Launch Instance**
 
 <img width="1915" height="879" alt="image" src="https://github.com/user-attachments/assets/2271d833-25d2-444b-8adc-9115b8f29c37" />
-
 ---
 
-### 2. Select AMI
-- Choose **Ubuntu Server (Latest LTS version)**
-
----
-
-### 3. Configure Instance
-- Select instance type (`t2.micro`)
-- Choose **Default VPC**
-- Enable **Auto-assign Public IP**
-
----
-
-### 4. Create Key Pair
+### 2. Create Key Pair
 - Click **Create new key pair**
 - Name: `my-keypair`
 - Type: RSA
@@ -54,7 +41,7 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 
 ---
 
-### 5. Configure Security Group
+### 3. Configure Security Group
 - Allow SSH access:
   - Port: 22
   - Source: Anywhere (0.0.0.0/0)
@@ -65,7 +52,7 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 
 ---
 
-### 6. Configure Storage
+### 4. Configure Storage
 - Set root volume size to **20 GB**
 - Volume type: General Purpose SSD (gp2/gp3)
 
@@ -73,7 +60,7 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 
 ---
 
-### 7. Launch Instance
+### 5. Launch Instance
 - Review all configurations
 - Click **Launch Instance**
 
