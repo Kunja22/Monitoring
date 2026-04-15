@@ -60,6 +60,9 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
   - Source: Anywhere (0.0.0.0/0)
 - Default security group will be created automatically
 
+  <img width="1906" height="813" alt="image" src="https://github.com/user-attachments/assets/83a12920-8ee4-4647-8140-998875ca7a97" />
+
+
 ---
 
 ### 6. Configure Storage
