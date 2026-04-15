@@ -26,6 +26,8 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 - Navigate to EC2 Dashboard
 - Click on **Launch Instance**
 
+<img width="1915" height="879" alt="image" src="https://github.com/user-attachments/assets/2271d833-25d2-444b-8adc-9115b8f29c37" />
+
 ---
 
 ### 2. Select AMI
