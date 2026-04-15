@@ -42,6 +42,39 @@ This project demonstrates how to:
 
 
 ---
+#  Task 2 AWS IAM Role - Delete S3 Bucket Using IAM Role
+
+## 📌 Objective
+Create an IAM Role with minimum required permissions and use it to delete an existing S3 bucket securely.
+
+---
+
+## 🛠️ Prerequisites
+- AWS Account
+- IAM user/role with permission to create IAM roles
+- AWS CLI installed and configured OR AWS Console access
+- Existing S3 bucket
+
+---
+
+## 🚀 Steps to Complete the Task
+
+## 1. Create IAM Role
+
+Go to:
+**AWS Console → IAM → Roles → Create Role**
+
+Select:
+- Trusted entity type: AWS service (or as per requirement)
+
+---
+
+## 2. Attach Permission Policy (Least Privilege)
+
+Create a custom policy and attach it to the role.
+
+### 📄 IAM Policy (S3 Delete Access Only)
+
 
 
 
