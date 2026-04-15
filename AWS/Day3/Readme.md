@@ -119,25 +119,19 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
  
       <img width="1906" height="851" alt="image" src="https://github.com/user-attachments/assets/160f0b94-2e10-461e-ad3e-779d6f9ca211" />
 
-
-
 ---
 
 # 🚀 EC2 & User Data (Nginx Setup)
 
 ## 📌 Objective
 To create an EC2 instance and use User Data to automatically install and start the Nginx web server, then access it via the public IP.
-
 ---
-
 ## 🛠️ Task 3
-
 ### 1. Create EC2 Instance
 
 <img width="1904" height="839" alt="image" src="https://github.com/user-attachments/assets/543c0b48-c62f-4148-a31d-60d1d1eb5aaa" />
 
 ---
-
 ### 2. Add User Data Script
 <img width="1903" height="818" alt="image" src="https://github.com/user-attachments/assets/c3002e94-d9f0-4aa4-831e-de96a46b6146" />
 
