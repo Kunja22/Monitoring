@@ -101,6 +101,8 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
   - Instance Type: t2.micro
   - Key Pair: Create new `.pem` key pair
   - Security Group: Allow SSH (Port 22)
+    <img width="1881" height="985" alt="image" src="https://github.com/user-attachments/assets/f4cf8195-2e61-4ae3-9c9d-84e0636bcce1" />
+
 
 ---
 
