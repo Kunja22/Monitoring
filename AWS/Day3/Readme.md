@@ -134,17 +134,17 @@ To create an EC2 instance and use User Data to automatically install and start t
 
 ### 1. Create EC2 Instance
 
+<img width="1904" height="839" alt="image" src="https://github.com/user-attachments/assets/543c0b48-c62f-4148-a31d-60d1d1eb5aaa" />
 
 ---
 
 ### 2. Add User Data Script
+<img width="1903" height="818" alt="image" src="https://github.com/user-attachments/assets/c3002e94-d9f0-4aa4-831e-de96a46b6146" />
 
-While launching the instance, scroll to **Advanced Details → User Data** and paste:
+# Open on browser
 
-```bash
-#!/bin/bash
-sudo apt update -y
-sudo apt install nginx -y
-sudo systemctl start nginx
-sudo systemctl enable nginx
+<img width="1617" height="744" alt="image" src="https://github.com/user-attachments/assets/1dff0968-7e80-453f-9f99-c86cd044c8de" />
+
+
+
 
