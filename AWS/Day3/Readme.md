@@ -49,6 +49,9 @@ To create an Amazon EC2 instance using Ubuntu OS in the default VPC with Public 
 - Format: `.pem`
 - Download and store securely
 
+<img width="1919" height="834" alt="image" src="https://github.com/user-attachments/assets/999660fd-9020-47ab-b52b-599316ed561c" />
+
+
 ---
 
 ### 5. Configure Security Group
