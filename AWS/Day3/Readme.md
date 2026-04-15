@@ -108,14 +108,13 @@ To create an EC2 instance and use User Data to automatically install and start t
 
     -  Create 2 docker containers, apache and nginx using user-data.
       
-      <img width="1916" height="823" alt="image" src="https://github.com/user-attachments/assets/eac61517-35d4-4a39-83b6-28d91529c40a" />
+ <img width="1916" height="823" alt="image" src="https://github.com/user-attachments/assets/eac61517-35d4-4a39-83b6-28d91529c40a" />
 
-      <img width="1826" height="785" alt="image" src="https://github.com/user-attachments/assets/a9e67bb5-ad20-40dd-b189-cadd28c536ce" />
+ <img width="1826" height="785" alt="image" src="https://github.com/user-attachments/assets/a9e67bb5-ad20-40dd-b189-cadd28c536ce" />
 
-
-      
  -  Access content of both containers using IP:8080 (for apache), IP:80 (for
     nginx)
+<img width="1617" height="744" alt="image" src="https://github.com/user-attachments/assets/3ee62822-9283-4992-8a63-8d3dda4dc5a4" />
 
 
 
