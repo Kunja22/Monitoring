@@ -115,6 +115,11 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
 
        <img width="1912" height="718" alt="image" src="https://github.com/user-attachments/assets/723dce1e-4c9c-4abc-bf63-4504c8ac5c16" />
 
+    - File show on S3
+ 
+      <img width="1906" height="851" alt="image" src="https://github.com/user-attachments/assets/160f0b94-2e10-461e-ad3e-779d6f9ca211" />
+
+
 
 
 
