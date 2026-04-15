@@ -102,6 +102,11 @@ To create an EC2 instance, connect via SSH, and upload files to an S3 bucket usi
   - Key Pair: Create new `.pem` key pair
   - Security Group: Allow SSH (Port 22)
     <img width="1881" height="985" alt="image" src="https://github.com/user-attachments/assets/f4cf8195-2e61-4ae3-9c9d-84e0636bcce1" />
+    
+   - Create bucket using aws cli
+     
+    <img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/a484c18a-f2b4-4ae5-b003-743dbd022904" />
+
 
 
 ---
