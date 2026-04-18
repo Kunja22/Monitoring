@@ -9,7 +9,9 @@ Create a Launch Template in AWS that automatically installs Apache web server an
 
 ### Configuration:
 
-- **AMI:** Amazon Linux / Ubuntu  
+- **AMI:** Amazon Linux / Ubuntu
+ <img width="1916" height="806" alt="image" src="https://github.com/user-attachments/assets/8e27e00c-127f-4fcb-b58f-99bdbd1a91c8" />
+
 - **Instance Type:** t3.micro  
 - **Key Pair:** Create new or use existing `.pem` file  
 
