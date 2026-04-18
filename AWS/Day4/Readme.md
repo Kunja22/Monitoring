@@ -22,4 +22,6 @@ Create a Launch Template in AWS that automatically installs Apache web server an
 ---
 
 ## 🖥 User Data Script (Apache Installation)
+<img width="1919" height="854" alt="image" src="https://github.com/user-attachments/assets/1bedf8de-bbc9-4641-a990-46fd0f633403" />
+
 
