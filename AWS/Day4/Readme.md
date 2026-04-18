@@ -1,15 +1,23 @@
-🚀 Auto Scaling Group & Launch Template (Apache → Nginx)
-📌 Objective
-Launch multiple EC2 instances using Launch Template
-Install Apache using user-data
-Access web server via Public IP
-Update Launch Template to use Nginx
-Verify updated instances
-🧱 Step 1: Create Launch Template (Apache)
-Configuration:
-AMI: Amazon Linux / Ubuntu
-Instance Type: t3.micro
-Key Pair: Existing or create new
-Security Group:
-SSH (22) → Your IP
-HTTP (80) → 0.0.0.0/0
+# 🚀 Launch Template Setup (Apache Web Server)
+
+## 📌 Objective
+Create a Launch Template in AWS that automatically installs Apache web server and displays a custom webpage.
+
+---
+
+## 🧱 Step 1: Create Launch Template
+
+### Configuration:
+
+- **AMI:** Amazon Linux / Ubuntu  
+- **Instance Type:** t3.micro  
+- **Key Pair:** Create new or use existing `.pem` file  
+
+### 🔐 Security Group Rules:
+- Allow **SSH (Port 22)** → Your IP  
+- Allow **HTTP (Port 80)** → Anywhere (0.0.0.0/0)  
+
+---
+
+## 🖥 User Data Script (Apache Installation)
+
