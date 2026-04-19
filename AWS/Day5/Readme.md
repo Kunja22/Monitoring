@@ -54,6 +54,9 @@ Create a custom VPC with:
 - Create IGW
 - Attach to VPC
 
+<img width="1908" height="838" alt="image" src="https://github.com/user-attachments/assets/5b733327-77f0-4945-9f02-ce1a017f9d56" />
+  
+
 ---
 
 ## 🔄 Step 4: Create NAT Gateway
