@@ -44,6 +44,9 @@ Create a custom VPC with:
 - 10.0.5.0/24
 - 10.0.6.0/24
 
+  <img width="1907" height="901" alt="image" src="https://github.com/user-attachments/assets/dddbce1e-ea44-473c-80e4-ccf24d8da76a" />
+
+
 ---
 
 ## 🌍 Step 3: Create Internet Gateway
