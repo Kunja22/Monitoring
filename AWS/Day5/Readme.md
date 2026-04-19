@@ -27,6 +27,8 @@ Create a custom VPC with:
 
 - Name: `Custom-VPC`
 - CIDR Block: `10.0.0.0/16`
+<img width="1919" height="790" alt="image" src="https://github.com/user-attachments/assets/bfeac524-0b25-40c0-8015-33ef49dc15f1" />
+
 
 ---
 
