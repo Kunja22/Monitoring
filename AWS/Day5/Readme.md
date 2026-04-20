@@ -76,3 +76,7 @@ Create a custom VPC with:
 
   <img width="1917" height="825" alt="image" src="https://github.com/user-attachments/assets/b6ccedb7-9c22-4e2b-81cb-c79fd01cee9a" />
 
+## Nginx is running on EC2
+
+<img width="1822" height="846" alt="image" src="https://github.com/user-attachments/assets/6bf72dbf-3cb5-4e48-a551-37fb0d80c7cc" />
+
