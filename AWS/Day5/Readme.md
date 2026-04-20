@@ -70,3 +70,6 @@ Create a custom VPC with:
 
 ### Public Route Table:
 - Route:
+
+  <img width="1917" height="825" alt="image" src="https://github.com/user-attachments/assets/b6ccedb7-9c22-4e2b-81cb-c79fd01cee9a" />
+
