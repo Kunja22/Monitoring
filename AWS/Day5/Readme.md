@@ -64,6 +64,9 @@ Create a custom VPC with:
 - Create in **Public Subnet**
 - Attach Elastic IP
 
+  <img width="1909" height="850" alt="image" src="https://github.com/user-attachments/assets/3db77edd-9ddb-4879-b844-dde855627f19" />
+
+
 ---
 
 ## 🛣️ Step 5: Route Tables
