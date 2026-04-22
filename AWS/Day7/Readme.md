@@ -40,3 +40,38 @@ sudo apt update -y
 sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
+
+---
+
+## 🔸 Step 3: Configure Nginx Services
+👉 Create two Nginx configuration files:
+- `/etc/nginx/sites-available/nginx1` (port 8081)
+- `/etc/nginx/sites-available/nginx2` (port 8082)
+
+👉 Each config should:
+- Listen on different ports (8081, 8082)
+- Use different root directories
+- Serve separate index.html pages
+
+---
+
+## 🔸 Step 4: Create Web Pages
+👉 Create directories:
+- `/usr/share/nginx/nginx1`
+- `/usr/share/nginx/nginx2`
+
+👉 Add custom HTML files:
+- Nginx1 → "This is Nginx 1"
+- Nginx2 → "This is Nginx 2"
+
+---
+
+## 🔸 Step 5: Enable Configurations
+👉 Enable both configs:
+- Link files from `sites-available` → `sites-enabled`
+
+👉 Verify and restart Nginx:
+- Check configuration using `nginx -t`
+- Restart service using `systemctl restart nginx`
+
+---
