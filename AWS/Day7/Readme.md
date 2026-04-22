@@ -42,7 +42,6 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 ---
-
 ## 🔸 Step 3: Configure Nginx Services
 👉 Create two Nginx configuration files:
 - `/etc/nginx/sites-available/nginx1` (port 8081)
