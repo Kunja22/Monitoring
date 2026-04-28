@@ -99,3 +99,122 @@ Azure allows you to rent servers and services instead of buying hardware.
 - IaaS = Infrastructure
 - PaaS = Platform
 - SaaS = Software
+# ☁️ AWS vs Azure - Service Comparison
+
+## 📌 Introduction
+Amazon Web Services (AWS) and Microsoft Azure are the two leading cloud platforms used for computing, storage, networking, and application deployment.
+
+---
+
+## ⚔️ AWS vs Azure Overview
+
+| Feature            | AWS (Amazon Web Services)       | Azure (Microsoft Azure)        |
+|------------------|--------------------------------|-------------------------------|
+| Launch Year      | 2006                           | 2010                          |
+| Provider         | Amazon                         | Microsoft                     |
+| Popularity       | Market Leader                  | Strong Enterprise Adoption    |
+| Best For         | Startups, flexibility          | Enterprises, Microsoft users  |
+
+---
+
+## 🔧 Core Service Comparison
+
+### 🖥️ Compute Services
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| EC2                | Virtual Machines         | Create and manage virtual servers |
+| Lambda             | Azure Functions          | Serverless computing |
+
+---
+
+### 💾 Storage Services
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| S3                 | Blob Storage             | Object storage for files |
+| EBS                | Managed Disks            | Block storage for VMs |
+
+---
+
+### 🌐 Networking
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| VPC                | Virtual Network (VNet)   | Private cloud network |
+| Route 53           | Azure DNS                | Domain name system |
+
+---
+
+### 🗄️ Database Services
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| RDS                | Azure SQL Database       | Managed relational database |
+| DynamoDB           | Cosmos DB                | NoSQL database |
+
+---
+
+### 🔐 Identity & Access Management
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| IAM                | Azure Active Directory   | Access and identity control |
+
+---
+
+### 📦 DevOps & CI/CD
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| CodePipeline       | Azure DevOps             | CI/CD pipeline |
+| CloudFormation     | ARM Templates / Bicep    | Infrastructure as Code |
+
+---
+
+### 📊 Monitoring
+| AWS                | Azure                     | Description |
+|--------------------|--------------------------|------------|
+| CloudWatch         | Azure Monitor            | Monitoring and logging |
+
+---
+
+## 🚀 Key Differences
+
+### AWS
+- More mature and widely used
+- Larger number of services
+- Better for flexible and custom setups
+
+### Azure
+- Strong integration with Microsoft tools (Windows, Office)
+- Better for enterprise environments
+- Easy integration with Active Directory
+
+---
+
+## 🎯 When to Choose What?
+
+### Choose AWS if:
+- You want more service options
+- You are working in startups or product-based companies
+- You need flexibility
+
+### Choose Azure if:
+- You use Microsoft tools (Windows Server, .NET)
+- You are working in enterprise environments
+- You need hybrid cloud solutions
+
+---
+
+## 🧠 Quick Mapping Summary
+
+| Category   | AWS        | Azure            |
+|------------|------------|------------------|
+| Compute    | EC2        | VM               |
+| Storage    | S3         | Blob Storage     |
+| Database   | RDS        | SQL Database     |
+| Networking | VPC        | VNet             |
+| IAM        | IAM        | Azure AD         |
+
+---
+
+## 📌 Conclusion
+Both AWS and Azure are powerful cloud platforms. The choice depends on your project needs, existing tools, and organizational requirements.
+
+- AWS = Flexibility + Market Leader
+- Azure = Enterprise + Microsoft Ecosystem
