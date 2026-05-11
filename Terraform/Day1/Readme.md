@@ -150,8 +150,10 @@ Check AWS Console:
 You should see:
 
 ```text
-TerraformDemo
+Hello world
 ```
+
+<img width="1892" height="862" alt="image" src="https://github.com/user-attachments/assets/59f5fbd1-c204-4b05-81ba-2b36a75f42df" />
 
 ---
 
