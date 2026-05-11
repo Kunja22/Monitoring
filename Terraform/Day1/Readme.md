@@ -132,6 +132,8 @@ Type:
 yes
 ```
 
+<img width="1917" height="955" alt="image" src="https://github.com/user-attachments/assets/876c26bf-67e4-4995-84b9-9c84e83cfcd4" />
+
 ### Result
 
 Terraform creates the EC2 instance in AWS.
