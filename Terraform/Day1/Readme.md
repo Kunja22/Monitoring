@@ -1,1 +1,417 @@
-#
+# Terraform Hands-on Practice
+
+## Overview
+
+This project demonstrates basic Terraform operations including:
+
+- Installing Terraform
+- Creating and destroying resources
+- Managing AWS resources
+- Understanding Terraform plan and refresh
+- Exploring important Terraform commands
+
+---
+
+# 1. Install Terraform on Ubuntu
+
+## Update System Packages
+
+```bash
+sudo apt update
+sudo apt install -y gnupg software-properties-common curl lsb-release
+```
+
+## Add HashiCorp GPG Key
+
+```bash
+curl -fsSL https://apt.releases.hashicorp.com/gpg | \
+sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+```
+
+## Add HashiCorp Repository
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com noble main" | \
+sudo tee /etc/apt/sources.list.d/hashicorp.list
+```
+
+## Install Terraform
+
+```bash
+sudo apt update
+sudo apt install terraform
+```
+
+## Verify Installation
+
+```bash
+terraform -version
+```
+
+---
+
+# 2. Configure Terraform Alias
+
+## Bash Shell
+
+```bash
+echo "alias tf='terraform'" >> ~/.bashrc
+source ~/.bashrc
+```
+
+## Zsh Shell
+
+```bash
+echo "alias tf='terraform'" >> ~/.zshrc
+source ~/.zshrc
+```
+
+## Verify Alias
+
+```bash
+tf version
+```
+
+---
+
+# 3. Create Terraform Project
+
+## Create Directory
+
+```bash
+mkdir terraform-demo
+cd terraform-demo
+```
+
+---
+
+# 4. Create Terraform Configuration
+
+Create a file named `main.tf`
+
+```hcl
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "demo_server" {
+  ami           = "ami-0c02fb55956c7d316"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "TerraformDemo"
+  }
+}
+```
+
+---
+
+# 5. Initialize Terraform
+
+```bash
+terraform init
+```
+
+### Purpose
+
+- Downloads AWS provider plugins
+- Initializes Terraform working directory
+
+---
+
+# 6. Check Terraform Plan
+
+```bash
+terraform plan
+```
+
+### Purpose
+
+Terraform compares:
+
+- Current infrastructure
+- Terraform configuration
+
+It shows what changes will happen before applying.
+
+---
+
+# 7. Apply Terraform Configuration
+
+```bash
+terraform apply
+```
+
+Type:
+
+```bash
+yes
+```
+
+### Result
+
+Terraform creates the EC2 instance in AWS.
+
+---
+
+# 8. Verify Created Resource
+
+Check AWS Console:
+
+- EC2 Dashboard
+- Running Instances
+
+You should see:
+
+```text
+TerraformDemo
+```
+
+---
+
+# 9. Destroy Infrastructure
+
+```bash
+terraform destroy
+```
+
+Type:
+
+```bash
+yes
+```
+
+### Result
+
+Terraform removes all created resources.
+
+---
+
+# 10. Add Another Resource
+
+Update `main.tf`
+
+```hcl
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "demo_server" {
+  ami           = "ami-0c02fb55956c7d316"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "TerraformDemo"
+  }
+}
+
+resource "aws_s3_bucket" "demo_bucket" {
+  bucket = "terraform-demo-bucket-123456"
+
+  tags = {
+    Name = "TerraformBucket"
+  }
+}
+```
+
+---
+
+# 11. Run Terraform Plan Again
+
+```bash
+terraform plan
+```
+
+### Output
+
+Terraform shows:
+
+- Existing EC2 instance unchanged
+- New S3 bucket will be created
+
+---
+
+# 12. Apply New Changes
+
+```bash
+terraform apply
+```
+
+### Result
+
+Terraform creates only the new S3 bucket.
+
+---
+
+# 13. Modify Existing Resource
+
+Change instance type:
+
+```hcl
+instance_type = "t3.micro"
+```
+
+Run:
+
+```bash
+terraform plan
+```
+
+### Observation
+
+Terraform detects infrastructure drift/change.
+
+Apply changes:
+
+```bash
+terraform apply
+```
+
+---
+
+# 14. Terraform Refresh
+
+## Command
+
+```bash
+terraform refresh
+```
+
+## Purpose
+
+Terraform refresh updates the local Terraform state file using real cloud infrastructure information.
+
+### Example
+
+If someone manually changes an EC2 instance in AWS Console:
+
+- Terraform state becomes outdated
+- `terraform refresh` syncs state with real infrastructure
+
+---
+
+# Difference Between Terraform Plan and Refresh
+
+| Terraform Plan | Terraform Refresh |
+|----------------|------------------|
+| Shows upcoming changes | Syncs Terraform state |
+| Compares config vs state | Compares real infra vs state |
+| Does not update state automatically | Updates state file |
+| Used before apply | Used for synchronization |
+
+---
+
+# 15. Important Terraform Commands
+
+---
+
+## Terraform Validate
+
+Checks configuration syntax.
+
+```bash
+terraform validate
+```
+
+### Example Output
+
+```text
+Success! The configuration is valid.
+```
+
+---
+
+## Terraform Format
+
+Formats Terraform files properly.
+
+```bash
+terraform fmt
+```
+
+---
+
+## Terraform Show
+
+Displays Terraform state details.
+
+```bash
+terraform show
+```
+
+---
+
+## Terraform State
+
+Used to inspect Terraform state.
+
+### List Resources
+
+```bash
+terraform state list
+```
+
+### Show Specific Resource
+
+```bash
+terraform state show aws_instance.demo_server
+```
+
+---
+
+# 16. Important Terraform Files
+
+| File/Folder | Purpose |
+|-------------|----------|
+| main.tf | Main Terraform configuration |
+| terraform.tfstate | Stores infrastructure state |
+| terraform.tfstate.backup | Backup state |
+| .terraform/ | Provider plugins |
+| variables.tf | Input variables |
+| outputs.tf | Output values |
+
+---
+
+# 17. Terraform Workflow
+
+```text
+Write Configuration
+        ↓
+terraform init
+        ↓
+terraform validate
+        ↓
+terraform plan
+        ↓
+terraform apply
+        ↓
+terraform destroy
+```
+
+---
+
+# 18. Best Practices
+
+- Always run `terraform plan` before apply
+- Store state files securely
+- Avoid hardcoding secrets
+- Use Git for version control
+- Use remote backend for teams
+- Use modules for reusable code
+
+---
+
+# 19. Conclusion
+
+This hands-on Terraform practice covered:
+
+- Terraform installation
+- Alias configuration
+- Infrastructure deployment
+- Infrastructure destruction
+- Adding new resources
+- Updating resources
+- Understanding Terraform refresh
+- Exploring essential Terraform commands
+
+Terraform simplifies Infrastructure as Code (IaC) and automates cloud resource management efficiently.
