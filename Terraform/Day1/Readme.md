@@ -167,6 +167,9 @@ Type:
 yes
 ```
 
+<img width="1906" height="1007" alt="image" src="https://github.com/user-attachments/assets/7765f3a6-9d5f-43b4-bf3b-fec149b5e56f" />
+
+
 ### Result
 
 Terraform removes all created resources.
