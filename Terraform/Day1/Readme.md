@@ -47,6 +47,8 @@ sudo apt install terraform
 ```bash
 terraform -version
 ```
+<img width="1913" height="965" alt="image" src="https://github.com/user-attachments/assets/53bf1be7-1830-4660-9ee5-40f92e9dcb90" />
+
 
 ---
 
