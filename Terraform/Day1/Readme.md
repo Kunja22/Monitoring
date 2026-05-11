@@ -52,31 +52,7 @@ terraform -version
 
 ---
 
-# 2. Configure Terraform Alias
-
-## Bash Shell
-
-```bash
-echo "alias tf='terraform'" >> ~/.bashrc
-source ~/.bashrc
-```
-
-## Zsh Shell
-
-```bash
-echo "alias tf='terraform'" >> ~/.zshrc
-source ~/.zshrc
-```
-
-## Verify Alias
-
-```bash
-tf version
-```
-
----
-
-# 3. Create Terraform Project
+# 2. Create Terraform Project
 
 ## Create Directory
 
@@ -87,7 +63,7 @@ cd terraform-demo
 
 ---
 
-# 4. Create Terraform Configuration
+# 3. Create Terraform Configuration
 
 Create a file named `main.tf`
 
@@ -108,7 +84,7 @@ resource "aws_instance" "demo_server" {
 
 ---
 
-# 5. Initialize Terraform
+# 4. Initialize Terraform
 
 ```bash
 terraform init
@@ -121,7 +97,7 @@ terraform init
 
 ---
 
-# 6. Check Terraform Plan
+# 5. Check Terraform Plan
 
 ```bash
 terraform plan
@@ -138,7 +114,7 @@ It shows what changes will happen before applying.
 
 ---
 
-# 7. Apply Terraform Configuration
+# 6. Apply Terraform Configuration
 
 ```bash
 terraform apply
@@ -156,7 +132,7 @@ Terraform creates the EC2 instance in AWS.
 
 ---
 
-# 8. Verify Created Resource
+# 7. Verify Created Resource
 
 Check AWS Console:
 
@@ -171,7 +147,7 @@ TerraformDemo
 
 ---
 
-# 9. Destroy Infrastructure
+# 8. Destroy Infrastructure
 
 ```bash
 terraform destroy
@@ -189,7 +165,7 @@ Terraform removes all created resources.
 
 ---
 
-# 10. Add Another Resource
+# 9. Add Another Resource
 
 Update `main.tf`
 
@@ -218,7 +194,7 @@ resource "aws_s3_bucket" "demo_bucket" {
 
 ---
 
-# 11. Run Terraform Plan Again
+# 10. Run Terraform Plan Again
 
 ```bash
 terraform plan
@@ -233,7 +209,7 @@ Terraform shows:
 
 ---
 
-# 12. Apply New Changes
+# 11. Apply New Changes
 
 ```bash
 terraform apply
@@ -245,7 +221,7 @@ Terraform creates only the new S3 bucket.
 
 ---
 
-# 13. Modify Existing Resource
+# 12. Modify Existing Resource
 
 Change instance type:
 
@@ -303,7 +279,7 @@ If someone manually changes an EC2 instance in AWS Console:
 
 ---
 
-# 15. Important Terraform Commands
+# 14. Important Terraform Commands
 
 ---
 
@@ -361,7 +337,7 @@ terraform state show aws_instance.demo_server
 
 ---
 
-# 16. Important Terraform Files
+# 15. Important Terraform Files
 
 | File/Folder | Purpose |
 |-------------|----------|
@@ -374,7 +350,7 @@ terraform state show aws_instance.demo_server
 
 ---
 
-# 17. Terraform Workflow
+# 16. Terraform Workflow
 
 ```text
 Write Configuration
@@ -392,7 +368,7 @@ terraform destroy
 
 ---
 
-# 18. Best Practices
+# 17. Best Practices
 
 - Always run `terraform plan` before apply
 - Store state files securely
@@ -403,7 +379,7 @@ terraform destroy
 
 ---
 
-# 19. Conclusion
+# 18. Conclusion
 
 This hands-on Terraform practice covered:
 
