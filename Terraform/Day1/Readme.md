@@ -263,6 +263,8 @@ terraform apply
 terraform refresh
 ```
 
+<img width="1917" height="937" alt="image" src="https://github.com/user-attachments/assets/d7d38bf4-69c2-4042-b9f1-649eb527dc7d" />
+
 ## Purpose
 
 Terraform refresh updates the local Terraform state file using real cloud infrastructure information.
