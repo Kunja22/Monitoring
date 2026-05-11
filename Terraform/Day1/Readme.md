@@ -106,6 +106,9 @@ terraform init
 terraform plan
 ```
 
+<img width="1917" height="970" alt="image" src="https://github.com/user-attachments/assets/9a31459d-ef27-43f4-bedf-a3d3caba8f18" />
+
+
 ### Purpose
 
 Terraform compares:
