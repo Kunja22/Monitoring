@@ -90,6 +90,9 @@ resource "aws_instance" "demo_server" {
 terraform init
 ```
 
+<img width="1913" height="972" alt="image" src="https://github.com/user-attachments/assets/826163a0-eaae-4f45-a08a-fd95b43d9a65" />
+
+
 ### Purpose
 
 - Downloads AWS provider plugins
