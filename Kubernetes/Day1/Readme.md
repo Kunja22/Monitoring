@@ -226,6 +226,8 @@ kubectl describe svc nginx
 - Docker installed and running
 - Internet connection
 
+   <img width="1912" height="983" alt="image" src="https://github.com/user-attachments/assets/ce486654-01a0-4597-a993-5692eab464ff" />
+
 ---
 
 
