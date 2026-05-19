@@ -208,3 +208,27 @@ kubectl expose deployment nginx --port=80 --type=NodePort
 kubectl get svc
 kubectl describe svc nginx
 ```
+# Install Minikube on Ubuntu (WSL)
+
+## Prerequisites
+
+- Ubuntu installed on WSL2
+- Docker installed and running
+- Internet connection
+
+---
+
+# Install Minikube on Ubuntu (WSL)
+
+## Prerequisites
+
+- Ubuntu installed on WSL2
+- Docker installed and running
+- Internet connection
+
+---
+
+# Step 1: Update System
+
+```bash
+sudo apt update && sudo apt upgrade -y
