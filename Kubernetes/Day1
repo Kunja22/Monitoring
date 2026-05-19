@@ -176,22 +176,35 @@ kubectl cluster-info
 kubectl get nodes
 kubectl version
 
-# Pods Commands 
+# Kubernetes Basic Commands
 
+# Pod Commands
+
+```bash
 kubectl get pods
 kubectl describe pod pod-name
 kubectl delete pod pod-name
 kubectl logs pod-name
 kubectl exec -it pod-name -- /bin/bash
+```
+
+---
 
 # Deployment Commands
 
+```bash
 kubectl create deployment nginx --image=nginx
 kubectl get deployments
 kubectl scale deployment nginx --replicas=3
 kubectl delete deployment nginx
+```
+
+---
 
 # Service Commands
+
+```bash
 kubectl expose deployment nginx --port=80 --type=NodePort
 kubectl get svc
 kubectl describe svc nginx
+```
