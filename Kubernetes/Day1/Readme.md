@@ -1,4 +1,4 @@
-# Kubernetes Complete README
+# Kubernetes 
 
 # 1. What is Kubernetes?
 
