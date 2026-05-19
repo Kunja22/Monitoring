@@ -228,7 +228,4 @@ kubectl describe svc nginx
 
 ---
 
-# Step 1: Update System
 
-```bash
-sudo apt update && sudo apt upgrade -y
